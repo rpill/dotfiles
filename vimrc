@@ -76,6 +76,13 @@ let g:indent_guides_enable_on_vim_startup = 1
 hi IndentGuidesOdd  guibg=#282a36 ctermbg=235
 hi IndentGuidesEven guibg=#383a46 ctermbg=236
 
+" air-line
+let g:airline_powerline_fonts = 1
+
+if !exists('g:airline_symbols')
+    let g:airline_symbols = {}
+endif
+
 " unicode symbols
 let g:airline_left_sep = '»'
 let g:airline_left_sep = '▶'
