@@ -15,6 +15,12 @@ set tw=0 wm=0
 
 set number relativenumber
 
+" bash-like TAB completion
+set wildmode=longest,list
+
+" navigate through completion variants using ← and →
+set wildmenu
+
 " enable Normal mode keys in ru layout
 set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz
 
